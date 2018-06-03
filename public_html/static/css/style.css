@@ -1,0 +1,21 @@
+/**
+ * Page Layout
+ */
+#layout {width: 85%; margin: 0 auto;}
+
+
+/**
+ * Main Navigation
+ */
+#mainNav > ul {list-style: none; margin: 0; padding: 0; overflow: hidden;}
+
+#mainNav > ul > li {float: left; margin-right: 20px;}
+#mainNav > ul > li:last-child {margin-right: 0;}
+
+#mainNav > ul > li > a.active {color: #000; text-decoration: none;}
+
+
+/**
+ * Maintenance mode
+ */
+.maintenance #layout {text-align: center;}

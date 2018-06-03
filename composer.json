@@ -1,0 +1,16 @@
+{
+    "config": {
+        "vendor-dir": "app/vendor"
+    },
+    
+    "require": {
+        "designcise/bitframe": "^1.0.0",
+        "designcise/bitframe-whoops": "^1.0.0",
+        "designcise/bitframe-diactoros": "^1.0.0",
+        "designcise/bitframe-fastroute": "^1.0.0",
+        "designcise/bitframe-leagueplates": "^1.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.4"
+    }
+}

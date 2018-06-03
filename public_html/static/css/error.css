@@ -1,0 +1,12 @@
+/**
+ * Error Details
+ */
+.errorMsg {width: 100%; word-wrap: break-word;}
+
+.errorDetails {margin-top: 20px;}
+
+.errorDetails > .backtrace {list-style: none; font-size: 0.85em; color: #777;}
+.errorDetails > .backtrace > li {margin-bottom: 0.875em; word-wrap: break-word;}
+
+.errorDetails > .errorTrace {width: 100%;}
+.errorDetails > .errorTrace > pre {padding: 20px; height: 250px; border: 2px solid #eee; word-wrap: break-word; background-color: #f1f1f1; overflow: scroll;}
